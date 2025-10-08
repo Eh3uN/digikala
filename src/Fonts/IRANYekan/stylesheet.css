@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'WeblogmaYekan';
+    src: url('WeblogmaYekan.eot');
+    src: url('WeblogmaYekan.eot?#iefix') format('embedded-opentype'),
+        url('WeblogmaYekan.woff2') format('woff2'),
+        url('WeblogmaYekan.woff') format('woff'),
+        url('WeblogmaYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,18 @@
+.advertisement {
+  width: 80%;
+  height: 241px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  margin: 20px auto;
+  img {
+    width: 322px;
+    height: 100%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+}

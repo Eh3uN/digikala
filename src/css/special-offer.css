@@ -1,0 +1,183 @@
+.offer {
+  width: 100%;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  .offer-center {
+    width: 80%;
+    height: 100%;
+    padding-right: 4px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #db304e;
+    border-radius: 16px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item {
+        width: 100%;
+        height: 100%;
+        .swiper-slide-item-img-1 {
+          width: 88px;
+          height: 88px;
+          display: block;
+          margin: 0 auto;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .clock {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row-reverse;
+          column-gap: 2px;
+          .hours,
+          .minutes,
+          .seconds {
+            width: 26px;
+            height: 26px;
+            background-color: whitesmoke;
+            font-family: number;
+            font-size: 16px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: bold;
+          }
+          span {
+            color: whitesmoke;
+          }
+        }
+        .swiper-slide-item-img-2 {
+          width: 80px;
+          height: 80px;
+          display: block;
+          margin: 5px auto;
+        }
+        a {
+          font-family: bold;
+          font-size: 12px;
+          color: whitesmoke;
+          text-decoration: none;
+        }
+      }
+      .swiper-slider-item {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        padding: 8px;
+        img {
+          width: 132px;
+          height: 132px;
+          display: block;
+          margin: 0 auto;
+          margin-top: 10px;
+        }
+        p {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          box-orient: vertical;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          overflow: hidden;
+          font-size: 15px;
+          font-family: var(--font-family);
+          color: #62666d;
+          line-height: 20px;
+          text-align: right;
+          margin: 10px 8px 10px 0;
+        }
+        .price {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          padding: 0 10px;
+          box-sizing: border-box;
+          align-items: center;
+          .real {
+            font-family: number;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 16px;
+              height: 16px;
+              margin-bottom: 8px;
+            }
+          }
+          .discount {
+            font-family: number;
+            font-size: 12px;
+            display: inline-block;
+            padding: 2px 10px;
+            background-color: #d32f2f;
+            border-radius: 15px;
+            color: whitesmoke;
+          }
+        }
+        .last-price {
+          font-family: number;
+          font-size: 12px;
+          color: lightgrey;
+          text-decoration: line-through;
+          text-align: left;
+          padding-left: 25px;
+          box-sizing: border-box;
+        }
+        a {
+          text-decoration: none;
+          font-family: bold;
+          font-size: 14px;
+          color: rgb(65, 64, 64);
+        }
+      }
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.active-offer {
+  background-color: #db304e !important;
+  border-radius: 16px;
+}
+.swiper-slider-item-left-1 {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #19bfd3;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+}
+.first-slide {
+  border-radius: 0 10px 10px 0;
+}
+.last-slide {
+  border-radius: 10px 0 0 10px;
+}

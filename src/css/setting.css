@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: IRANYekan;
+  src: url(../Fonts/IRANYekan/IRANYekan.eot),
+    url(../Fonts/IRANYekan/IRANYekan.ttf),
+    url(../Fonts/IRANYekan/IRANYekan.woff),
+    url(../Fonts/IRANYekan/IRANYekan.woff2);
+}
+@font-face {
+  font-family: IRANYekan-bold;
+  src: url(../Fonts/IRANYekan/BYekan-Bold.woff),
+    url(../Fonts/IRANYekan/BYekan-Bold.eot),
+    url(../Fonts/IRANYekan/BYekan-Bold.ttf),
+    url(../Fonts/IRANYekan/IRANYekan.woff2);
+}
+@font-face {
+  font-family: Number;
+  src: url(../Fonts/Vazir/Vazir-Medium-FD-WOL.eot);
+}
+@font-face {
+  font-family: Number;
+  src: url(../Fonts/Vazir/Vazir-Bold-FD-WOL.ttf);
+}
+
+@font-face {
+  font-family: Number;
+  src: url(../Fonts/Vazir/Vazir-Medium-FD-WOL.woff);
+}
+
+@font-face {
+  font-family: Number;
+  src: url(../Fonts/Vazir/Vazir-Medium-FD-WOL.woff2);
+}
+body {
+  font-family: IRANYekan, Number;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #e1e1e3;
+}
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 12px !important;
+  height: 12px !important;
+}
+.swiper-button-next path,
+.swiper-button-prev path {
+  stroke: #2b2b2b !important;
+  fill: #2b2b2b !important;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  transition: 350ms;
+}
+.swiper-pagination-bullet-active {
+  width: 15px !important;
+  height: 5px !important;
+  border-radius: 2px !important;
+  background-color: whitesmoke !important;
+}
+.swiper-button-next span,
+.swiper-button-prev span {
+  font-size: 16px;
+}

@@ -1,0 +1,288 @@
+.footer {
+  width: 95%;
+  padding-right: 30px;
+  padding-left: 20px;
+  .digikala-logo {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 195px;
+      height: 30px;
+      margin-top: 5px;
+    }
+    .digikala-logo-up {
+      width: 138px;
+      height: 38px;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      a {
+        text-decoration: none;
+        font-family: IRANYekan;
+        font-size: 13px;
+        color: #a1a3a8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 38px;
+        gap: 5px;
+        svg path {
+          fill: #a1a3a8;
+        }
+      }
+    }
+  }
+  .telephone {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    font-family: IRANYekan;
+    font-size: 15px;
+    span {
+      width: 1px;
+      height: 12px;
+      margin-top: 2px;
+      background-color: #a1a3a8;
+    }
+  }
+  .options {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    .option {
+      width: 270px;
+      height: 104px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 56px;
+        height: 56px;
+      }
+      p {
+        font-family: IRANYekan;
+        font-size: 11px;
+        margin-top: 4px;
+      }
+    }
+  }
+  .reports {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .report {
+      width: 330px;
+      height: 280px;
+      display: flex;
+      flex-flow: column;
+      p {
+        font-family: IRANYekan-bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #81858b;
+      }
+      a {
+        font-family: IRANYekan-bold;
+        font-size: 14px;
+        text-decoration: none;
+        color: #a1a3a8;
+        line-height: 40px;
+      }
+      .social-media {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        gap: 10px;
+        .instagram,
+        .twitter {
+          width: 62px;
+          height: 62px;
+        }
+        .linkedin,
+        .aparat {
+          width: 55px;
+          height: 55px;
+        }
+      }
+      .email-register {
+        display: flex;
+        gap: 10px;
+        .email-input {
+          width: 260px;
+          height: 50px;
+          background-color: #f0f0f1;
+          border: none;
+          border-radius: 10px;
+          font-family: IRANYekan-bold;
+          font-size: 14px;
+          color: #a1a3a8;
+          padding: 0 16px;
+          box-sizing: border-box;
+        }
+        .submit-input {
+          width: 55px;
+          height: 50px;
+          background-color: #e0e0e2;
+          border: none;
+          border-radius: 10px;
+          font-family: IRANYekan-bold;
+          font-size: 14px;
+          color: #fffeff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .dl-app {
+    width: 100%;
+    height: 150px;
+    padding: 37px 16px;
+    box-sizing: border-box;
+    .dl-app-center {
+      width: 100%;
+      height: 75px;
+      background-color: #3c4b6d;
+      border-radius: 8px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .dl-app-center-right {
+        display: flex;
+        img {
+          width: 44px;
+          height: 44px;
+          margin-right: 16px;
+        }
+        p {
+          font-family: IRANYekan-bold;
+          font-size: 21px;
+          color: #ffffff;
+          margin-top: 8px;
+          margin-right: 16px;
+        }
+      }
+      .dl-app-center-left {
+        display: flex;
+        gap: 16px;
+        margin-left: 16px;
+        .dl-app-center-apps {
+          width: 142px;
+          height: 42px;
+          a img {
+            width: 142px;
+            height: 42px;
+            object-fit: cover;
+            border-radius: 6px;
+          }
+        }
+        .dl-app-center-more {
+          width: 44px;
+          height: 44px;
+          background-color: #ffffff;
+          border-radius: 6px;
+          margin-right: 10px;
+          a img {
+            width: 44px;
+            height: 44px;
+          }
+        }
+      }
+    }
+  }
+  .e-namad {
+    width: 100%;
+    height: 225px;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    .e-namad-right {
+      width: 800px;
+      h1 {
+        font-family: IRANYekan-bold;
+        font-size: 21px;
+        margin-bottom: 8px;
+        color: #81858b;
+      }
+      p {
+        font-family: IRANYekan-bold;
+        font-size: 14px;
+        color: #81858b;
+        line-height: 28px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+      a {
+        font-size: 12px;
+        font-family: IRANYekan-bold;
+        color: #2dbfd3;
+        text-decoration: none;
+        position: relative;
+        img {
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 0.2px;
+        }
+      }
+    }
+    .e-namad-left {
+      display: flex;
+      gap: 8px;
+      padding-left: 5px;
+      box-sizing: border-box;
+      .e-namad-left-items {
+        width: 110px;
+        height: 110px;
+        border: 1px solid lightgray;
+        border-radius: 8px;
+        img {
+          width: 75px;
+          height: 75px;
+          margin: 17.5px 17.5px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .copyright {
+    width: 100%;
+    height: 88px;
+    text-align: center;
+    align-content: center;
+    p {
+      font-family: IRANYekan;
+      font-size: 14px;
+      color: #81858b;
+    }
+  }
+}
+.digikala-items {
+  width: fit-content;
+  height: 160px;
+  background-color: #f0f0f1;
+  display: flex;
+  flex-flow: row wrap;
+  .digikala-item {
+    width: 209px;
+    height: 80px;
+    display: flex;
+    img {
+      width: 85px;
+      height: 20px;
+      margin: 30px auto;
+      text-align: center;
+    }
+  }
+}
