@@ -20,7 +20,7 @@
       }
       p {
         width: 38%;
-        font-family: var(--font-family);
+        font-family: IRANYekan;
         font-size: 14px;
         text-align: center;
         margin: 10px auto;
@@ -43,8 +43,283 @@
           margin-left: 12px;
         }
       }
+      .more {
+        width: 685px;
+        height: 485px;
+        background-color: #ffffff;
+        box-shadow: 0 0 25px #2b2b2b;
+        border-radius: 16px;
+        position: fixed;
+        top: -600px;
+        right: -500px;
+        z-index: 10000;
+        overflow: hidden;
+        transition: 600ms;
+        transition-delay: 100ms;
+        .more-header {
+          width: 100%;
+          height: 58px;
+          display: flex;
+          align-items: center;
+          padding: 12px 20px;
+          box-sizing: border-box;
+          .more-header-img {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 24px;
+            margin-left: 30px;
+            margin-right: 2px;
+          }
+          p {
+            font-family: IRANYekan;
+            font-size: 16px;
+            margin-right: -85px;
+          }
+          [for="close-more"] {
+            width: 24px;
+            height: 24px;
+            font-size: 35px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            cursor: pointer;
+          }
+        }
+        .more-body {
+          width: 685px;
+          height: 425px;
+          padding: 16px 20px;
+          box-sizing: border-box;
+          overflow: auto;
+          .more-body-header {
+            width: 628px;
+            height: 275px;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2px;
+            a {
+              text-decoration: none;
+              .more-body-header-item {
+                width: 103px;
+                height: 132px;
+                img {
+                  width: 52px;
+                  height: 52px;
+                  margin: 3px auto;
+                }
+                p {
+                  font-family: IRANYekan;
+                  font-size: 14px;
+                  margin: 5px auto;
+                  color: #3f4064;
+                }
+              }
+            }
+          }
+          h4 {
+            display: block;
+            font-size: 14px;
+            font-family: IRANYekan;
+            margin-top: 24px;
+          }
+          .more-body-down {
+            width: 100%;
+            height: 900px;
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            flex-flow: row wrap;
+            .more-body-down-84 {
+              width: 308px;
+              height: 84px;
+              padding: 12px;
+              box-sizing: border-box;
+              border: 1px solid lightgray;
+              border-radius: 16px;
+              display: flex;
+              position: relative;
+              img {
+                width: 52px;
+                height: 52px;
+                margin-top: 0;
+              }
+              .more-body-down-left {
+                width: 256px;
+                height: 100%;
+                padding-right: 10px;
+                box-sizing: border-box;
+                .more-body-down-left-top {
+                  width: 100%;
+                  height: 33px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  h5 {
+                    color: #3f4064;
+                    font-family: IRANYekan;
+                    font-size: 15px;
+                  }
+                  img {
+                    width: 32px;
+                    height: 32px;
+                    margin: 0;
+                  }
+                }
+                h6 {
+                  color: #81858b;
+                  font-family: IRANYekan-bold;
+                  font-size: 12px;
+                  line-height: 28px;
+                }
+              }
+            }
+            .more-body-down-110 {
+              width: 308px;
+              height: 110px;
+              padding: 12px;
+              box-sizing: border-box;
+              border: 1px solid lightgray;
+              border-radius: 16px;
+              display: flex;
+              position: relative;
+              img {
+                width: 52px;
+                height: 52px;
+                margin-top: 0;
+              }
+              .more-body-down-left {
+                width: 256px;
+                height: 100%;
+                padding-right: 10px;
+                box-sizing: border-box;
+                .more-body-down-left-top {
+                  width: 100%;
+                  height: 33px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  h5 {
+                    color: #3f4064;
+                    font-family: IRANYekan;
+                    font-size: 15px;
+                  }
+                  img {
+                    width: 32px;
+                    height: 32px;
+                    margin: 0;
+                  }
+                }
+                h6 {
+                  color: #81858b;
+                  font-family: IRANYekan-bold;
+                  font-size: 12px;
+                  line-height: 28px;
+                }
+              }
+            }
+            .more-body-down-136 {
+              width: 308px;
+              height: 136px;
+              padding: 12px;
+              box-sizing: border-box;
+              border: 1px solid lightgray;
+              border-radius: 16px;
+              display: flex;
+              position: relative;
+              img {
+                width: 52px;
+                height: 52px;
+                margin-top: 0;
+              }
+              .more-body-down-left {
+                width: 256px;
+                height: 100%;
+                padding-right: 10px;
+                box-sizing: border-box;
+                .more-body-down-left-top {
+                  width: 100%;
+                  height: 33px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  h5 {
+                    color: #3f4064;
+                    font-family: IRANYekan-bold;
+                    font-size: 15px;
+                  }
+                  img {
+                    width: 32px;
+                    height: 32px;
+                    margin: 0;
+                  }
+                }
+                h6 {
+                  color: #81858b;
+                  font-family: IRANYekan-bold;
+                  font-size: 12px;
+                  line-height: 28px;
+                }
+              }
+            }
+            .more-body-down-188 {
+              width: 308px;
+              height: 188px;
+              padding: 12px;
+              box-sizing: border-box;
+              border: 1px solid lightgray;
+              border-radius: 16px;
+              display: flex;
+              position: relative;
+              img {
+                width: 52px;
+                height: 52px;
+                margin-top: 0;
+              }
+              .more-body-down-left {
+                width: 256px;
+                height: 100%;
+                padding-right: 10px;
+                box-sizing: border-box;
+                .more-body-down-left-top {
+                  width: 100%;
+                  height: 33px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  h5 {
+                    color: #3f4064;
+                    font-family: IRANYekan-bold;
+                    font-size: 15px;
+                  }
+                  img {
+                    width: 32px;
+                    height: 32px;
+                    margin: 0;
+                  }
+                }
+                h6 {
+                  color: #81858b;
+                  font-family: IRANYekan-bold;
+                  font-size: 12px;
+                  line-height: 28px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
+}
+.p1 {
+  width: 50% !important;
+}
+#more:checked ~ .more {
+  top: 80px;
+  right: 500px;
+}
+#more,
+#close-more {
+  display: none;
 }
 .p1 {
   width: 50% !important;

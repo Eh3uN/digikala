@@ -1,0 +1,424 @@
+.poshtibani {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  bottom: 32px;
+  z-index: 10000;
+  display: flex;
+  .ghermez {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ef4056;
+    cursor: pointer;
+    margin-top: 3.5px;
+    right: 50px;
+    z-index: 10000;
+    position: relative;
+    img {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 12px;
+      left: 12px;
+    }
+  }
+  [for="supermarket"] .sabz {
+    width: 130px;
+    height: 52px;
+    background-color: #029a49;
+    position: absolute;
+    left: 20px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    z-index: 10002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    p {
+      font-family: IRANYekan-bold;
+      font-size: 16px;
+      color: #ffffff;
+    }
+    img {
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
+.super-market {
+  width: 460px;
+  height: 320px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #2b2b2b;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  transition: 600ms;
+  transition-delay: 100ms;
+  .super-market-subject {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-family: IRANYekan-bold;
+      font-size: 16px;
+      padding: 16px 0;
+      box-sizing: border-box;
+    }
+    [for="close"] {
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      font-size: 35px;
+      margin-top: 17px;
+      cursor: pointer;
+      font-weight: IRANYekan-bold;
+    }
+  }
+  .super-market-items {
+    width: 420px;
+    height: 240px;
+    display: flex;
+    gap: 10px;
+    .super-market-item-1 {
+      width: 205px;
+      height: 240px;
+      border-radius: 8px;
+      padding: 10px 0;
+      box-sizing: border-box;
+      background-color: #dbf3e6;
+      .super-market-item-header-1 {
+        display: flex;
+        align-items: center;
+        width: 204px;
+        height: 34px;
+        padding: 0 16px;
+        box-sizing: border-box;
+        p {
+          font-family: IRANYekan-bold;
+          font-size: 16px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .super-market-item-body-1 {
+        width: 110px;
+        height: 26px;
+        background-color: #029a49;
+        margin-right: 16px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        gap: 8px;
+        border-radius: 20px 4px 22px 20px;
+        img {
+          width: 18px;
+          height: 18px;
+        }
+        p {
+          font-family: IRANYekan-bold;
+          font-size: 12px;
+          color: #ffffff;
+        }
+      }
+      .super-market-item-body-img {
+        width: 130px;
+        height: 130px;
+        margin-top: 15px;
+        margin-right: 75px;
+      }
+    }
+    .super-market-item-2 {
+      width: 205px;
+      height: 240px;
+      border-radius: 8px;
+      padding: 10px 0;
+      box-sizing: border-box;
+      background-color: #feebde;
+      .super-market-item-header-2 {
+        display: flex;
+        align-items: center;
+        width: 204px;
+        height: 34px;
+        padding: 0 16px;
+        box-sizing: border-box;
+        p {
+          font-family: IRANYekan-bold;
+          font-size: 16px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .super-market-item-body-2 {
+        width: 110px;
+        height: 26px;
+        background-color: #ff8042;
+        margin-right: 16px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        gap: 8px;
+        border-radius: 20px 4px 22px 20px;
+        img {
+          width: 18px;
+          height: 18px;
+        }
+        p {
+          font-family: IRANYekan-bold;
+          font-size: 12px;
+          color: #ffffff;
+        }
+      }
+      .super-market-item-body-img {
+        width: 130px;
+        height: 130px;
+        margin-top: 15px;
+        margin-right: 75px;
+      }
+    }
+  }
+}
+#supermarket:checked ~ .super-market {
+  left: calc(62% - 50%/2);
+  top: -380px;
+}
+#close,
+#supermarket {
+  display: none;
+}
+.backup {
+  width: 360px;
+  height: 425px;
+  background-color: #ffffff;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  box-shadow: 0 0 25px #2b2b2b;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  overflow: hidden;
+  transition: 600ms;
+  transition-delay: 100ms;
+  .backup-header {
+    width: 360px;
+    height: 55px;
+    background-color: #ef4056;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-family: IRANYekan-bold;
+      font-size: 19px;
+      color: #ffffff;
+      margin-right: 20px;
+    }
+    a {
+      text-decoration: none;
+      margin-left: 20px;
+      margin-top: 15px;
+      img {
+        width: 34px;
+        height: 34px;
+      }
+    }
+    [for="close-backup"] {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background-color: #ef4056;
+      cursor: pointer;
+      display: flex;
+      margin-top: 3.5px;
+      position: absolute;
+      right: 300px;
+      top: 0;
+      font-size: 30px;
+      color: #ffffff;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+  }
+  .backup-body {
+    width: 360px;
+    height: 370px;
+    overflow: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    h1 {
+      font-family: IRANYekan-bold;
+      font-size: 19px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-family: IRANYekan-bold;
+      font-size: 14px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      line-height: 30px;
+    }
+    .backup-footer {
+      width: 150px;
+      height: 50px;
+      background-color: #ef4056;
+      margin: 20px auto;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        background-color: #ef4056;
+        color: #ef4056;
+        p {
+          font-family: IRANYekan-bold;
+          color: #ffffff;
+          background-color: #ef4056;
+        }
+      }
+    }
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+    *,
+    *:after,
+    *:before {
+      box-sizing: border-box;
+    }
+
+    :root {
+      font-size: 16px;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+      font-size: 1.25rem;
+    }
+
+    *:focus {
+      outline: none;
+    }
+
+    body > div {
+      width: 90%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    details div {
+      border-left: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      border-radius: 8px;
+      padding: 1.3rem;
+      p {
+        font-family: IRANYekan-bold;
+        font-size: 13px;
+        line-height: 30px;
+      }
+    }
+
+    details div > * + * {
+      margin-top: 1.5em;
+    }
+
+    details + details {
+      margin-top: 0.5rem;
+    }
+
+    summary {
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary {
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      padding: 0.75em 1em;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        font-family: IRANYekan-bold;
+        font-size: 15px;
+        padding-left: 5px;
+        box-sizing: border-box;
+        line-height: 30px;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    summary:before {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0.75rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      background-color: #000;
+      color: #fff;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    details[open] summary:before {
+      border: 1px solid lightgray;
+    }
+
+    a {
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 1px 0 0;
+    }
+  }
+}
+#poshtibani:checked ~ .backup {
+  right: 50px;
+  top: -420px;
+}
+#poshtibani:checked ~ .ghermez {
+  display: none;
+}
+#close-backup:checked ~ [for="close-backup"] {
+  display: none;
+}
+#close-backup,
+#poshtibani {
+  display: none;
+}
