@@ -6,8 +6,8 @@ Main page of the famous/best Iranian website "https://digikala.com" coded with H
 https://eh3un.github.io/digikala/
 
 ## Features
--Pixel Perfect coding
--clean code
+- Pixel Perfect coding
+- clean code
 
 ## Tech Stack
 HTML, CSS, JavaScript
